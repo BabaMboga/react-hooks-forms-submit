@@ -51,7 +51,7 @@ function Form(props) {
       {/* conditionally render error messages */}
       {errors.length > 0
       ? errors.map((error, index) => (
-        <p key={index} style={{colo : "red"}}>
+        <p key={index} style={{color : "red"}}>
           {error}
         </p>
       ))
